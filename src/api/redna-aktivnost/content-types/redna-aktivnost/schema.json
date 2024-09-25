@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redna_aktivnosts",
+  "info": {
+    "singularName": "redna-aktivnost",
+    "pluralName": "redna-aktivnosts",
+    "displayName": "Redna aktivnost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ime": {
+      "type": "string",
+      "required": true
+    },
+    "danIzvajanja": {
+      "type": "string",
+      "default": "Vsako sredo",
+      "required": true
+    },
+    "Ura": {
+      "type": "string",
+      "default": "19:00",
+      "required": true
+    }
+  }
+}

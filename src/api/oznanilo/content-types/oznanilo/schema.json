@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oznanilos",
+  "info": {
+    "singularName": "oznanilo",
+    "pluralName": "oznanilos",
+    "displayName": "Oznanilo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naslov": {
+      "type": "string",
+      "required": true
+    },
+    "Datum": {
+      "type": "date",
+      "required": true
+    },
+    "Ura": {
+      "type": "time",
+      "required": true
+    },
+    "Kraj": {
+      "type": "string",
+      "required": true
+    },
+    "Vsebina": {
+      "type": "richtext"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Kdo": {
+      "type": "string",
+      "default": "Vsi",
+      "required": true
+    }
+  }
+}

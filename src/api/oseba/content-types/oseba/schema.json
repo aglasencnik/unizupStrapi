@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "osebas",
+  "info": {
+    "singularName": "oseba",
+    "pluralName": "osebas",
+    "displayName": "Oseba"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ime": {
+      "type": "string",
+      "required": true
+    },
+    "funkcija": {
+      "type": "string",
+      "required": true
+    },
+    "slikaOsebe": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

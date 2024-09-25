@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skupinas",
+  "info": {
+    "singularName": "skupina",
+    "pluralName": "skupinas",
+    "displayName": "Skupina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imeSkupine": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "kratekOpisSkupine": {
+      "type": "text",
+      "required": true,
+      "default": "Opis"
+    },
+    "nekajOSkupini": {
+      "type": "text",
+      "required": true
+    },
+    "aktivnost1": {
+      "type": "string",
+      "required": true,
+      "default": "aktivnost 1"
+    },
+    "aktivnost2": {
+      "type": "string",
+      "default": "aktivnost 2",
+      "required": true
+    },
+    "aktivnost3": {
+      "type": "string",
+      "default": "aktivnost 3",
+      "required": true
+    },
+    "aktivnost4": {
+      "type": "string",
+      "default": "aktivnost 4",
+      "required": true
+    },
+    "kdaj": {
+      "type": "string",
+      "required": true
+    },
+    "kdo": {
+      "type": "string",
+      "required": true
+    },
+    "zakaj": {
+      "type": "string",
+      "required": true
+    },
+    "kako": {
+      "type": "string",
+      "required": true
+    },
+    "linkDoPrijavnice": {
+      "type": "string"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

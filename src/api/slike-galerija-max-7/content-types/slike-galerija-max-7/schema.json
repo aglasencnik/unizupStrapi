@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "slike_galerija_max_7s",
+  "info": {
+    "singularName": "slike-galerija-max-7",
+    "pluralName": "slike-galerija-max-7s",
+    "displayName": "slike_galerija_max_7"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slike_max_7": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

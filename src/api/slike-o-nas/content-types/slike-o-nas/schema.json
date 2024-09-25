@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "slike_o_nass",
+  "info": {
+    "singularName": "slike-o-nas",
+    "pluralName": "slike-o-nass",
+    "displayName": "slike_o_nas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slike": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

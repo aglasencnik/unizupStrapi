@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "slike_sv_janez_p_max_6s",
+  "info": {
+    "singularName": "slike-sv-janez-p-max-6",
+    "pluralName": "slike-sv-janez-p-max-6s",
+    "displayName": "slike_sv_janez_p_max_6"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slike_max_6": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

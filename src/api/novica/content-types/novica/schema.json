@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novicas",
+  "info": {
+    "singularName": "novica",
+    "pluralName": "novicas",
+    "displayName": "Novica"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naslov": {
+      "type": "string",
+      "required": true
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Dogodek",
+        "Duhovno",
+        "Novica"
+      ],
+      "required": true,
+      "default": "Novica"
+    },
+    "Avtor": {
+      "type": "string",
+      "required": true
+    },
+    "Datum": {
+      "type": "date",
+      "required": true
+    },
+    "Vsebina": {
+      "type": "richtext",
+      "required": true
+    },
+    "Media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "YTVideoEmbedIframe": {
+      "type": "text"
+    },
+    "duhovnaRast": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

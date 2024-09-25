@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "koristna_povezavas",
+  "info": {
+    "singularName": "koristna-povezava",
+    "pluralName": "koristna-povezavas",
+    "displayName": "Koristna povezava"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imePovezave": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
