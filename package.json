@@ -1,5 +1,5 @@
 {
-  "name": "unizup-strapi",
+  "name": "lol",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -11,7 +11,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi-newsletter/strapi": "^0.1.2",
     "@strapi/plugin-cloud": "5.0.0",
     "@strapi/plugin-users-permissions": "5.0.0",
     "@strapi/strapi": "5.0.0",
@@ -21,11 +20,12 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
+  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "ec58d88b-db21-49aa-9bb4-ca61d159259d"
+    "uuid": "9dc95858-751a-4d31-a760-ee36a6dda3c5"
   }
 }
